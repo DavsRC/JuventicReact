@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './assets/css/App.css';
+import "./assets/css/App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/footercom";
+import Menu from "./components/Platos";
+import ListaPedidos from "./pages/ListaPedidos";
+import Acerca from "./pages/Acerca";
+import Carro from "./pages/Carro";
+import Contacto from "./pages/Contacto";
+import Inicio from "./pages/Inicio";
+import Servicios from "./pages/Servicios";
+import Reserva from "./components/Reservas";
+import Mapa from "./pages/Mapa"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page-container">
+      <div className="content-wrap">
+        <Router>
+
+          <Navbar />
+          <div className="page-container">
+            <Route path="/Acerca" component={Acerca} />
+            <Route path="/Servicios" component={Servicios} />
+            <Route path="/" exact component={Inicio} />
+            <Route path="/Menu" component={Menu} />
+            <Route path="/Reserva" component={Reserva} />
+            <Route path="/Contacto" component={Contacto} />
+            <Route path="/Carro" component={Carro} />
+
+            <Route path="/ListaPedidos" component={ListaPedidos} />
+          </div>
+           <Footer /> 
+        </Router>
+      </div>
     </div>
   );
 }

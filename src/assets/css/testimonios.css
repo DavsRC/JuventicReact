@@ -1,0 +1,53 @@
+.card-c {
+    width: 400px;
+    height: 320px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+  }
+  
+  .upper-container-c {
+    height: 100px;
+    background: linear-gradient(to left, orange , #ff0029);
+  }
+  .image-container img {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    padding: 5px;
+    transform: translate(150px, 45px);
+  }
+  .img-cliente {
+    border: 2px solid orange;
+  }
+  .lower-container-c {
+    margin-top: 60px;
+    height: 300px;
+    background: white;
+    text-align: center;
+  }
+  .lower-container-c h3,p {
+    margin: 0;
+    padding: 0;
+  }
+  .lower-container-c h3 {
+    color: #2f2d2e;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .lower-container-c p {
+    margin: 1rem;
+    font-weight: 700;
+    color: #2f2d2e;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+.calificacion{
+  height: 30px;
+  width: 120px;
+}

@@ -1,0 +1,43 @@
+/*************************pagina Contactanos***********************************/
+
+.contacto{
+    width: 30vw;
+    margin-left: 2vw;
+    display: flex;
+    float: left;
+    margin-top: 80px;
+}
+
+.formulario{
+    margin-top: 4vw;
+    background-color: #973139;
+    width: 60%;
+    display: flex;
+    float: right;
+}
+
+form{
+    margin-left: 1vw;
+    
+}
+
+textarea{
+    width: 100%;
+    min-height: 5vw;
+    max-height: 5vw;
+    
+}
+
+.formulario button{
+    margin-left: 30%;
+    width: 20vw;
+}
+
+input{
+    background-color: aqua ;
+}
+
+.formulario{
+    margin-left: 1vw;
+    margin-bottom: 20px;
+}

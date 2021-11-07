@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "nombre": "Pizza de ciruela",
+        "imagen":"plato1.jpg",
+        "precio": "$25.000",
+        "cantidad": "4",
+        "precioTotal":"$100.000"
+    },
+
+    {
+        "id":"2",
+        "nombre": "Mortadela con Milanesa",
+        "imagen":"plato2.jpg",
+        "precio": "$30.000",
+        "cantidad": "1",
+        "precioTotal":"$60.000"
+    },
+
+    {
+        "id":"3",
+        "nombre": "Pizza Vegetariana",
+        "imagen":"plato3.jpg",
+        "precio": "$25.000",
+        "cantidad": "2",
+        "precioTotal":"$50.000"
+    }
+  
+    
+]
