@@ -1,8 +1,11 @@
 import React from "react";
+import Servicio from "../components/Servicios";
 
 class Servicios extends React.Component{
     render(){
-        return <h1>Servicios</h1>
+        return(
+            <Servicio/>
+        )
     }
 
 }export default Servicios;

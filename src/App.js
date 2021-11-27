@@ -7,7 +7,7 @@ import Menu from "./components/Platos";
 import ListaPedidos from "./pages/ListaPedidos";
 import Acerca from "./pages/Acerca";
 import Carro from "./pages/Carro";
-import Contacto from "./pages/Contacto";
+import Contacto from "./components/Contactos";
 import Inicio from "./pages/Inicio";
 import Servicios from "./pages/Servicios";
 import Reserva from "./components/Reservas";
@@ -29,6 +29,7 @@ function App() {
             <Route path="/Reserva" component={Reserva} />
             <Route path="/Contacto" component={Contacto} />
             <Route path="/Carro" component={Carro} />
+            <Route path="/Mapa" component={Mapa} />
 
             <Route path="/ListaPedidos" component={ListaPedidos} />
           </div>

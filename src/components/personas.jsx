@@ -13,7 +13,7 @@ class Persona extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <h4 className="text-center">EMPLEADOS</h4>
+        <h4 className="text-center textempleados">EMPLEADOS</h4>
         <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-6">
           <div className="col">
           <Trabajador

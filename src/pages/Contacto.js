@@ -1,12 +1,14 @@
 import React from "react";
-import Reservas from "../components/Reservas";
+import Contacto from "../components/Contactos";
 
-class Contacto extends React.Component{
+class Contactos extends React.Component{
 
     render(){
-        return  <h1>Esta es la pagina de contacto online</h1>
+        return (
+            <Contacto/>
+        )
            
         
     }
 
-}export default Contacto;
+}export default Contactos;

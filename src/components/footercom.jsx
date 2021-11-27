@@ -12,7 +12,7 @@ function Footer() {
             <div className="col">
               <h4>PIZZA LA ITALIANA</h4>
               <h1 className="list-unstyled">
-                <img src={Mapa} alt="mapa" className="card-img-top" />
+                <img src={Mapa} alt="mapa" className="card-img-top imgmapa" />
               </h1>
             </div>
             {/* Column2 */}
