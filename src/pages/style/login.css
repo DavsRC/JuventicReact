@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+title{
+    font-size: medium;
+}
+
+.body{
+    background-image: url('./../../assets/img/login.jpg') ;
+    background-size: 100% 100%;
+    
+}
+
+.container-fluid{
+    
+    margin-top: 5rem;
+
+}
+
+.formulario_login{
+   
+    display: flex;
+    float:initial;
+    width: 50%;
+   
+    margin:auto;
+    
+    justify-content:space-between;
+}
+
+#btn_login{
+    width: auto;
+    
+}
+
+.btn1{
+   
+    margin-left: 40%;
+}
+
+.btn2{
+    margin-left: 40%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}

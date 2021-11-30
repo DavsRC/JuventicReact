@@ -35,6 +35,12 @@ class Navbar extends React.Component {
               <i class="fas fa-shopping-cart"></i>
             </Link>
           </li>
+          <li>
+            <Link to="/Login"> 
+              <i className="fas fa-door-open"></i>
+            </Link>
+              
+          </li>
         </ul>
         <span className="btn_menu">
           <i className="fa fa-bars"></i>

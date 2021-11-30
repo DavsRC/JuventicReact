@@ -42,7 +42,7 @@ class Testimonio extends Component {
         <div className="row">
           <div>
           <div className="col">
-          <button type="button" class="btn btn-outline-danger buttonopinion"><Link to="/Resena" className="nav-Link p-0 text-muted">Añadir Reseña</Link></button>
+          <button type="button" class="btn btn-outline-danger buttonopinion"><Link to="/ReseNa" className="nav-Link p-0 text-muted">Añadir Reseña</Link></button>
           </div>
           </div>
 

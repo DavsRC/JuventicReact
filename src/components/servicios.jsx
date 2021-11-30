@@ -12,7 +12,7 @@ import cena from "../assets/img/servicios/cena.jpg";
 class Servicio extends Component {
   render() {
     return (
-      <div className="container-fluid containerdeservicios d-flex jusify-content-center">
+      <div className="containerdeservicios d-flex jusify-content-center" id="servicios">
         <div className="row">
           <div className="col-md-4">
             <Formatoser

@@ -18,7 +18,7 @@
     padding: 0.4rem 1.9rem;
   }
   
-  .container-fluid {
+  .servicios {
     padding-top: 3rem;
   }
   .col-md-4{
@@ -32,4 +32,7 @@
   .card-img-top{
     width: 480px;
     height: 300px;
+  }
+  #servicios{
+    padding-top: 3rem;
   }

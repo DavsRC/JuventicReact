@@ -12,7 +12,7 @@ import mesera2 from "../assets/img/personas/mesera2.jpg";
 class Persona extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="empleados">
         <h4 className="text-center textempleados">EMPLEADOS</h4>
         <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-6">
           <div className="col">

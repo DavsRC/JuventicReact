@@ -17,7 +17,7 @@ import plato12 from "../assets/img/platosmenu/plato12.jpg";
 class Platos extends Component {
   render() {
     return (
-      <div className="container-fluid-menu d-flex jusify-content-center">
+      <div className="container-fluid-menu d-flex jusify-content-center" id="servicios">
         <div className="row">
           <div className="col-md-4">
             <Menu

@@ -16,6 +16,8 @@ import NavApi from "./pages/NavApi";
 import AdmMenu from "./pages/AdmMenu";
 import AdmServicios from "./pages/AdmServicios";
 import ReseNa from "./components/ReseNa";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -38,6 +40,9 @@ function App() {
             <Route path="/AdmMenu" component={AdmMenu} />
             <Route path="/AdmServicios" component={AdmServicios} />
             <Route path="/ReseNa" component={ReseNa} />
+            <Route path="/Login" component={Login} />
+            <Route path="/Register" component={Register} />
+
           </div>
            <Footer /> 
         </Router>
