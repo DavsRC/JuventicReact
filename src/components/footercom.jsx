@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/footer.css";
 import Mapa from "../assets/img/Mapa.JPG";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -28,9 +29,22 @@ function Footer() {
             <div className="col">
               <h4>REDES</h4>
               <ui className="list-unstyled">
-                <li>FACEBOOK</li>
-                <li>TWITTER</li>
-                <li>INSTAGRAM</li>
+                <li>
+                  {" "}
+                  <a href="https://www.facebook.com/Colnodo/">FACEBOOK</a>
+                </li>
+                <li>
+                  {" "}
+                  <a href="https://twitter.com/Colnodo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    TWITTER
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a href="https://www.instagram.com/colnodo/?hl=es">
+                    INSTAGRAM
+                  </a>
+                </li>
               </ui>
             </div>
           </div>
@@ -38,7 +52,9 @@ function Footer() {
           <div className="row">
             <p className="col-sm">
               &copy;{new Date().getFullYear()} PIZZA LA ITALIANA | Todos los
-              derechos reservados | Terminos de Servicio | Juventic
+              derechos reservados | Terminos de Servicio | Juventic | <Link to="/NavApi">
+                    Administracion
+                  </Link>
             </p>
           </div>
         </div>

@@ -17,55 +17,43 @@ class Servicio extends Component {
           <div className="col-md-4">
             <Formatoser
               imgsrc={cumple}
-              precio="25000"
-              nombreplato="Pizza de ciruela"
+              nombreplato="Fiestas de Cumpleaños"
               descripcion="Ofrecemos los mejores cumpleaños."
-              tiempo="20 Min"
             />
           </div>
           <div className="col-md-4">
           <Formatoser
               imgsrc={aniversario}
-              precio="30000"
-              nombreplato="Mortadela con Milanesa"
+              nombreplato="Eventos de Aniversario"
               descripcion="Disfrute sus aniversarios con nosotros."
-              tiempo="20 Min"
             />
           </div>
           <div className="col-md-4">
           <Formatoser
               imgsrc={infantiles}
-              precio="25000"
-              nombreplato="Stracciatella"
+              nombreplato="Fiestas Infantiles"
               descripcion="Venga y celebre con sus hijos."
-              tiempo="20 Min"
             />
           </div>
           <div className="col-md-4">
           <Formatoser
               imgsrc={despedida}
-              precio="25000"
-              nombreplato="Pizza Vegetariana"
+              nombreplato="Despedidas de Solter@"
               descripcion="Despidase de la mejor manera."
-              tiempo="20 Min"
             />
           </div>
           <div className="col-md-4">
           <Formatoser
               imgsrc={matrimonio}
-              precio="46000"
-              nombreplato="Langosta Italiana"
+              nombreplato="Celebracion de Bodas"
               descripcion="Declaré su amor con nosotros."
-              tiempo="40 Min"
             />
           </div>
           <div className="col-md-4">
           <Formatoser
               imgsrc={cena}
-              precio="25000"
-              nombreplato="Lasaña Italiana"
+              nombreplato="Eventos Formales"
               descripcion="Venga a comer con amigos."
-              tiempo="30 Min"
             />
           </div>
         </div>

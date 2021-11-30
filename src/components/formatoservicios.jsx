@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/servicios.css";
+import { Link } from "react-router-dom";
 
 const Formatoser = (props) => {
   return (
@@ -10,9 +11,9 @@ const Formatoser = (props) => {
       <div className="card-body text-dark">
         <h4 className="card-title">{props.nombreplato}</h4>
         <p className="card-text text-secondary">{props.descripcion}</p>
-        <a href="#" className="btn btn-outline-success">
+        <Link to="/Reserva" className="btn btn-outline-success">
           Haga su Reserva
-          </a>
+          </Link>
       </div>
     </div>
   );

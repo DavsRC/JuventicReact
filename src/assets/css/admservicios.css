@@ -1,0 +1,11 @@
+.formcontainer{
+    width: 480px;
+    height: 400px;
+    margin: auto;
+}
+.btn-group-vertical{
+    margin-left: 32%;
+}
+.btn-outline-dark{
+    margin-left: 32%;
+}

@@ -12,7 +12,10 @@ import Inicio from "./pages/Inicio";
 import Servicios from "./pages/Servicios";
 import Reserva from "./components/Reservas";
 import Mapa from "./pages/Mapa"
-
+import NavApi from "./pages/NavApi";
+import AdmMenu from "./pages/AdmMenu";
+import AdmServicios from "./pages/AdmServicios";
+import ReseNa from "./components/ReseNa";
 
 function App() {
   return (
@@ -30,8 +33,11 @@ function App() {
             <Route path="/Contacto" component={Contacto} />
             <Route path="/Carro" component={Carro} />
             <Route path="/Mapa" component={Mapa} />
-
             <Route path="/ListaPedidos" component={ListaPedidos} />
+            <Route path="/NavApi" component={NavApi} />
+            <Route path="/AdmMenu" component={AdmMenu} />
+            <Route path="/AdmServicios" component={AdmServicios} />
+            <Route path="/ReseNa" component={ReseNa} />
           </div>
            <Footer /> 
         </Router>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../assets/css/testimonios.css";
+import { Link } from "react-router-dom";
 
 import cliente1 from "../assets/img/personas/cliente1.jpg";
 import Cliente2 from "../assets/img/personas/Cliente2.jpg";
@@ -37,6 +38,14 @@ class Testimonio extends Component {
               calificacion={estre}
             />
           </div>
+        </div>
+        <div className="row">
+          <div>
+          <div className="col">
+          <button type="button" class="btn btn-outline-danger buttonopinion"><Link to="/Resena" className="nav-Link p-0 text-muted">Añadir Reseña</Link></button>
+          </div>
+          </div>
+
         </div>
       </div>
     );
